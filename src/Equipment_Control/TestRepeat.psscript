@@ -1,0 +1,10 @@
+format_version=2.3
+OUTPUT=..\..\Documents\PSData\CLIO%20methods\ScriptVerified\Script%252525252525252525252520Output\scriptoutput.txt
+OUTPUT_CHK=False
+COMMENTS=
+cmdCell True
+cmdRepeat 4
+cmdMeasure False%pole..\..\Documents\PSData\CLIO%20methods\ScriptVerified\PSmethod\COND_Ch=2.psmethod%poleFalse%poleFalse%pole%pole%poleFalse%poleTrue%pole%pole..\Conductivity\%poleTrue%pole3
+EndOfSubBlock
+EndOfSubBlock
+cmdCell False

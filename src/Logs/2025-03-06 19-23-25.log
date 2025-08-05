@@ -1,0 +1,393 @@
+2025-03-06 19:23:26,411 - INFO - Starting priming and mixing composition ACN|100|None|0:
+2025-03-06 19:23:26,447 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:23:26,448 - INFO - Command sent: [0, 255, 7] for valve state: ON, valve number: 7
+2025-03-06 19:23:26,448 - INFO - Command sent: [0, 255, 8] for valve state: ON, valve number: 8
+2025-03-06 19:23:26,448 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:23:26,448 - INFO - Priming 1.5mL from bottle 1
+2025-03-06 19:23:26,449 - INFO - Connecting to 10-port valve 0
+2025-03-06 19:23:26,452 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2025-03-06 19:23:26,498 - INFO - Valve moving from position: 10
+2025-03-06 19:23:26,642 - INFO - Valve moved to position: 1
+2025-03-06 19:23:26,768 - INFO - Pumping 1.5mL from VALVE takes 18.0 seconds
+2025-03-06 19:23:26,787 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:23:26,787 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:23:26,787 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 1, 1, 88])
+2025-03-06 19:23:44,786 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:23:44,786 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:23:44,786 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 0, 1, 89])
+2025-03-06 19:23:44,915 - INFO - Pumping 2.999989949109415mL from bottle 1
+2025-03-06 19:23:44,954 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:23:44,955 - INFO - Command sent: [0, 253, 7] for valve state: OFF, valve number: 7
+2025-03-06 19:23:44,955 - INFO - Command sent: [0, 253, 8] for valve state: OFF, valve number: 8
+2025-03-06 19:23:44,955 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:23:44,956 - INFO - Pumping 2.999989949109415mL from VALVE takes 35.99987938931298 seconds
+2025-03-06 19:23:44,962 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:23:44,963 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:23:44,963 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 1, 1, 88])
+2025-03-06 19:24:20,963 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:24:20,964 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:24:20,964 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 0, 1, 89])
+2025-03-06 19:24:21,091 - INFO - Connecting to 10-port valve 0
+2025-03-06 19:24:21,110 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2025-03-06 19:24:21,157 - INFO - Valve moving from position: 1
+2025-03-06 19:24:21,316 - INFO - Valve moved to position: 10
+2025-03-06 19:24:21,448 - INFO - Connecting to 10-port valve 1
+2025-03-06 19:24:21,466 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2025-03-06 19:24:21,513 - INFO - Valve moved to position: 1
+2025-03-06 19:24:21,634 - INFO - Pumping 0.96mL from VALVE takes 11.52 seconds
+2025-03-06 19:24:21,650 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.START_PUMP: 1>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:24:21,650 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: CLOCKWISE
+2025-03-06 19:24:21,650 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 1, 0, 89])
+2025-03-06 19:24:33,174 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 12, <State1.STOP_PUMP: 0>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:24:33,174 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: CLOCKWISE
+2025-03-06 19:24:33,174 - INFO - Generated command: array('B', [233, 12, 8, 87, 76, 0, 76, 75, 64, 0, 0, 88])
+2025-03-06 19:24:33,343 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&2607a8f6&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:24:33,344 - INFO - Command sent: [0, 255, 3] for valve state: ON, valve number: 3
+2025-03-06 19:24:33,345 - INFO - Command sent: [0, 255, 4] for valve state: ON, valve number: 4
+2025-03-06 19:24:33,345 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&2607a8f6&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:24:36,391 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&2607a8f6&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:24:36,391 - INFO - Command sent: [0, 253, 3] for valve state: OFF, valve number: 3
+2025-03-06 19:24:36,392 - INFO - Command sent: [0, 253, 4] for valve state: OFF, valve number: 4
+2025-03-06 19:24:36,392 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&2607a8f6&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:25:36,439 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:25:36,440 - INFO - Command sent: [0, 255, 1] for valve state: ON, valve number: 1
+2025-03-06 19:25:36,441 - INFO - Command sent: [0, 255, 2] for valve state: ON, valve number: 2
+2025-03-06 19:25:36,441 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:25:36,441 - INFO - Pumping 0.5mL from SONICATOR takes 7.5 seconds
+2025-03-06 19:25:36,454 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 4000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:25:36,454 - INFO - Setting flow rate to 4000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:25:36,454 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 61, 9, 0, 1, 1, 41])
+2025-03-06 19:25:43,952 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 4000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:25:43,952 - INFO - Setting flow rate to 4000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:25:43,952 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 61, 9, 0, 0, 1, 40])
+2025-03-06 19:25:49,083 - INFO - Successfully opened serial port COM9 at baud rate 9600.
+2025-03-06 19:25:49,168 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,168 - INFO - Measurement stable count: 1
+2025-03-06 19:25:49,279 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,279 - INFO - Measurement stable count: 2
+2025-03-06 19:25:49,388 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,388 - INFO - Measurement stable count: 3
+2025-03-06 19:25:49,495 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,495 - INFO - Measurement stable count: 4
+2025-03-06 19:25:49,602 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,602 - INFO - Measurement stable count: 5
+2025-03-06 19:25:49,713 - INFO - Received measurement: 71.571
+2025-03-06 19:25:49,713 - INFO - Measurement stable count: 6
+2025-03-06 19:25:49,821 - INFO - Received measurement: 71.669
+2025-03-06 19:25:49,932 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,042 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,150 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,257 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,366 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,475 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,584 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,693 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,801 - INFO - Received measurement: 71.669
+2025-03-06 19:25:50,912 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,023 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,133 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,240 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,240 - INFO - Measurement stable count: 1
+2025-03-06 19:25:51,348 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,348 - INFO - Measurement stable count: 2
+2025-03-06 19:25:51,458 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,458 - INFO - Measurement stable count: 3
+2025-03-06 19:25:51,567 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,567 - INFO - Measurement stable count: 4
+2025-03-06 19:25:51,676 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,676 - INFO - Measurement stable count: 5
+2025-03-06 19:25:51,785 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,785 - INFO - Measurement stable count: 6
+2025-03-06 19:25:51,894 - INFO - Received measurement: 71.669
+2025-03-06 19:25:51,894 - INFO - Measurement stable count: 7
+2025-03-06 19:25:52,004 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,004 - INFO - Measurement stable count: 8
+2025-03-06 19:25:52,112 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,112 - INFO - Measurement stable count: 9
+2025-03-06 19:25:52,221 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,222 - INFO - Measurement stable count: 10
+2025-03-06 19:25:52,331 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,331 - INFO - Measurement stable count: 11
+2025-03-06 19:25:52,439 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,439 - INFO - Measurement stable count: 12
+2025-03-06 19:25:52,550 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,551 - INFO - Measurement stable count: 13
+2025-03-06 19:25:52,659 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,659 - INFO - Measurement stable count: 14
+2025-03-06 19:25:52,767 - INFO - Received measurement: 71.669
+2025-03-06 19:25:52,767 - INFO - Measurement stable count: 15
+2025-03-06 19:25:52,767 - INFO - Measurement stabilized: 71.669
+2025-03-06 19:25:52,773 - INFO - Pumping 0.5mL from SONICATOR takes 7.5 seconds
+2025-03-06 19:25:52,781 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 4000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:25:52,781 - INFO - Setting flow rate to 4000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:25:52,781 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 61, 9, 0, 1, 1, 41])
+2025-03-06 19:26:00,280 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 4000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:26:00,280 - INFO - Setting flow rate to 4000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:26:00,280 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 61, 9, 0, 0, 1, 40])
+2025-03-06 19:26:07,433 - INFO - Successfully opened serial port COM9 at baud rate 9600.
+2025-03-06 19:26:07,467 - INFO - Received measurement: 71.669
+2025-03-06 19:26:07,467 - INFO - Measurement stable count: 1
+2025-03-06 19:26:07,573 - INFO - Received measurement: 71.669
+2025-03-06 19:26:07,573 - INFO - Measurement stable count: 2
+2025-03-06 19:26:07,683 - INFO - Received measurement: 71.669
+2025-03-06 19:26:07,683 - INFO - Measurement stable count: 3
+2025-03-06 19:26:07,794 - INFO - Received measurement: 71.669
+2025-03-06 19:26:07,795 - INFO - Measurement stable count: 4
+2025-03-06 19:26:07,903 - INFO - Received measurement: 71.669
+2025-03-06 19:26:07,903 - INFO - Measurement stable count: 5
+2025-03-06 19:26:08,009 - INFO - Received measurement: 71.669
+2025-03-06 19:26:08,009 - INFO - Measurement stable count: 6
+2025-03-06 19:26:08,119 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,229 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,339 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,447 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,559 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,667 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,779 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,889 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:08,999 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,108 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,218 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,219 - INFO - Measurement stable count: 1
+2025-03-06 19:26:09,330 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,331 - INFO - Measurement stable count: 2
+2025-03-06 19:26:09,440 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,440 - INFO - Measurement stable count: 3
+2025-03-06 19:26:09,550 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,551 - INFO - Measurement stable count: 4
+2025-03-06 19:26:09,659 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,659 - INFO - Measurement stable count: 5
+2025-03-06 19:26:09,768 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,768 - INFO - Measurement stable count: 6
+2025-03-06 19:26:09,879 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,879 - INFO - Measurement stable count: 7
+2025-03-06 19:26:09,989 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:09,989 - INFO - Measurement stable count: 8
+2025-03-06 19:26:10,099 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,099 - INFO - Measurement stable count: 9
+2025-03-06 19:26:10,210 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,210 - INFO - Measurement stable count: 10
+2025-03-06 19:26:10,321 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,322 - INFO - Measurement stable count: 11
+2025-03-06 19:26:10,429 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,429 - INFO - Measurement stable count: 12
+2025-03-06 19:26:10,540 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,541 - INFO - Measurement stable count: 13
+2025-03-06 19:26:10,648 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,648 - INFO - Measurement stable count: 14
+2025-03-06 19:26:10,759 - INFO - Received measurement: 72.1726
+2025-03-06 19:26:10,759 - INFO - Measurement stable count: 15
+2025-03-06 19:26:10,759 - INFO - Measurement stabilized: 72.1726
+2025-03-06 19:26:10,765 - INFO - Total mass: 0.5036000000000058g
+2025-03-06 19:26:10,765 - INFO - Pumping 0.5mL from SONICATOR takes 6.0 seconds
+2025-03-06 19:26:10,776 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:26:10,776 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: CLOCKWISE
+2025-03-06 19:26:10,776 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 0, 91])
+2025-03-06 19:26:16,773 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:26:16,773 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: CLOCKWISE
+2025-03-06 19:26:16,773 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 0, 90])
+2025-03-06 19:26:16,935 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:26:16,936 - INFO - Command sent: [0, 255, 3] for valve state: ON, valve number: 3
+2025-03-06 19:26:16,936 - INFO - Command sent: [0, 255, 4] for valve state: ON, valve number: 4
+2025-03-06 19:26:16,938 - INFO - Command sent: [0, 253, 1] for valve state: OFF, valve number: 1
+2025-03-06 19:26:16,939 - INFO - Command sent: [0, 253, 2] for valve state: OFF, valve number: 2
+2025-03-06 19:26:16,939 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:26:16,939 - INFO - Pumping 0.9mL from SONICATOR takes 10.799999999999999 seconds
+2025-03-06 19:26:16,952 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:26:16,952 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:26:16,952 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 1, 90])
+2025-03-06 19:26:27,763 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:26:27,763 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:26:27,763 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 1, 91])
+2025-03-06 19:26:27,888 - INFO - Starting measuring:
+2025-03-06 19:26:28,482 - INFO - connecting to PalmSens4 [1]
+2025-03-06 19:26:29,346 - INFO - connection established
+2025-03-06 19:26:31,617 - INFO - index = 1
+2025-03-06 19:26:31,617 - INFO - frequency = [592000.0]
+2025-03-06 19:26:31,617 - INFO - zre = [15948.222381305815]
+2025-03-06 19:26:31,617 - INFO - zim = [5270.5174465028385]
+2025-03-06 19:26:32,869 - INFO - index = 2
+2025-03-06 19:26:32,869 - INFO - frequency = [526729.3125]
+2025-03-06 19:26:32,869 - INFO - zre = [15931.75781118259]
+2025-03-06 19:26:32,869 - INFO - zim = [4528.474589311109]
+2025-03-06 19:26:34,084 - INFO - index = 3
+2025-03-06 19:26:34,084 - INFO - frequency = [468655.0625]
+2025-03-06 19:26:34,084 - INFO - zre = [15845.20379596304]
+2025-03-06 19:26:34,084 - INFO - zim = [3889.5663877405555]
+2025-03-06 19:26:35,303 - INFO - index = 4
+2025-03-06 19:26:35,303 - INFO - frequency = [416983.75]
+2025-03-06 19:26:35,304 - INFO - zre = [15772.129915077692]
+2025-03-06 19:26:35,304 - INFO - zim = [3415.4285501152435]
+2025-03-06 19:26:36,527 - INFO - index = 5
+2025-03-06 19:26:36,527 - INFO - frequency = [371009.40625]
+2025-03-06 19:26:36,527 - INFO - zre = [15622.192886732606]
+2025-03-06 19:26:36,527 - INFO - zim = [3008.600130463332]
+2025-03-06 19:26:37,779 - INFO - index = 6
+2025-03-06 19:26:37,779 - INFO - frequency = [330103.9375]
+2025-03-06 19:26:37,779 - INFO - zre = [15524.813954287698]
+2025-03-06 19:26:37,779 - INFO - zim = [2633.304381740274]
+2025-03-06 19:26:39,027 - INFO - index = 7
+2025-03-06 19:26:39,027 - INFO - frequency = [293708.5]
+2025-03-06 19:26:39,027 - INFO - zre = [15423.22002262309]
+2025-03-06 19:26:39,028 - INFO - zim = [2306.883139141257]
+2025-03-06 19:26:40,260 - INFO - index = 8
+2025-03-06 19:26:40,260 - INFO - frequency = [261325.828125]
+2025-03-06 19:26:40,260 - INFO - zre = [15319.768698412327]
+2025-03-06 19:26:40,261 - INFO - zim = [2060.962251790983]
+2025-03-06 19:26:41,480 - INFO - index = 9
+2025-03-06 19:26:41,480 - INFO - frequency = [232513.484375]
+2025-03-06 19:26:41,480 - INFO - zre = [15190.809792456716]
+2025-03-06 19:26:41,480 - INFO - zim = [1819.8069172630212]
+2025-03-06 19:26:42,712 - INFO - index = 10
+2025-03-06 19:26:42,712 - INFO - frequency = [206877.828125]
+2025-03-06 19:26:42,712 - INFO - zre = [15062.970059928593]
+2025-03-06 19:26:42,712 - INFO - zim = [1627.3437012457073]
+2025-03-06 19:26:43,967 - INFO - index = 11
+2025-03-06 19:26:43,967 - INFO - frequency = [184068.609375]
+2025-03-06 19:26:43,968 - INFO - zre = [14993.0057290296]
+2025-03-06 19:26:43,968 - INFO - zim = [1451.8993757332444]
+2025-03-06 19:26:45,197 - INFO - index = 12
+2025-03-06 19:26:45,197 - INFO - frequency = [163774.21875]
+2025-03-06 19:26:45,198 - INFO - zre = [14822.567104548034]
+2025-03-06 19:26:45,198 - INFO - zim = [1275.21072646005]
+2025-03-06 19:26:46,417 - INFO - index = 13
+2025-03-06 19:26:46,417 - INFO - frequency = [145717.375]
+2025-03-06 19:26:46,417 - INFO - zre = [14735.554114053628]
+2025-03-06 19:26:46,417 - INFO - zim = [1165.2521390804577]
+2025-03-06 19:26:47,672 - INFO - index = 14
+2025-03-06 19:26:47,672 - INFO - frequency = [129651.3828125]
+2025-03-06 19:26:47,672 - INFO - zre = [14608.537495733102]
+2025-03-06 19:26:47,673 - INFO - zim = [1032.488576223562]
+2025-03-06 19:26:48,926 - INFO - index = 15
+2025-03-06 19:26:48,926 - INFO - frequency = [115356.734375]
+2025-03-06 19:26:48,927 - INFO - zre = [14511.738108280984]
+2025-03-06 19:26:48,927 - INFO - zim = [981.3869290007476]
+2025-03-06 19:26:50,149 - INFO - index = 16
+2025-03-06 19:26:50,149 - INFO - frequency = [102638.1328125]
+2025-03-06 19:26:50,149 - INFO - zre = [14375.646753702742]
+2025-03-06 19:26:50,149 - INFO - zim = [875.5673020488855]
+2025-03-06 19:26:51,368 - INFO - index = 17
+2025-03-06 19:26:51,368 - INFO - frequency = [91321.8203125]
+2025-03-06 19:26:51,368 - INFO - zre = [14281.163009726039]
+2025-03-06 19:26:51,369 - INFO - zim = [855.2761305733804]
+2025-03-06 19:26:52,601 - INFO - index = 18
+2025-03-06 19:26:52,601 - INFO - frequency = [81253.1796875]
+2025-03-06 19:26:52,601 - INFO - zre = [14143.077939862962]
+2025-03-06 19:26:52,601 - INFO - zim = [752.1243959048697]
+2025-03-06 19:26:53,846 - INFO - index = 19
+2025-03-06 19:26:53,846 - INFO - frequency = [72294.6484375]
+2025-03-06 19:26:53,846 - INFO - zre = [14030.177846134327]
+2025-03-06 19:26:53,846 - INFO - zim = [691.6154765461935]
+2025-03-06 19:26:55,101 - INFO - index = 20
+2025-03-06 19:26:55,101 - INFO - frequency = [64323.83984375]
+2025-03-06 19:26:55,101 - INFO - zre = [13924.434551968701]
+2025-03-06 19:26:55,101 - INFO - zim = [645.514956079237]
+2025-03-06 19:26:56,326 - INFO - index = 21
+2025-03-06 19:26:56,326 - INFO - frequency = [57231.84765625]
+2025-03-06 19:26:56,326 - INFO - zre = [13815.493294177935]
+2025-03-06 19:26:56,326 - INFO - zim = [604.7854347947207]
+2025-03-06 19:26:57,577 - INFO - index = 22
+2025-03-06 19:26:57,577 - INFO - frequency = [50921.78125]
+2025-03-06 19:26:57,577 - INFO - zre = [13701.423515243085]
+2025-03-06 19:26:57,577 - INFO - zim = [580.1183387063753]
+2025-03-06 19:26:58,807 - INFO - index = 23
+2025-03-06 19:26:58,807 - INFO - frequency = [45307.42578125]
+2025-03-06 19:26:58,807 - INFO - zre = [13592.633958066857]
+2025-03-06 19:26:58,807 - INFO - zim = [557.769501389811]
+2025-03-06 19:27:00,065 - INFO - index = 24
+2025-03-06 19:27:00,065 - INFO - frequency = [40312.078125]
+2025-03-06 19:27:00,065 - INFO - zre = [13492.423189867883]
+2025-03-06 19:27:00,065 - INFO - zim = [539.3219243406986]
+2025-03-06 19:27:01,318 - INFO - index = 25
+2025-03-06 19:27:01,319 - INFO - frequency = [35867.48828125]
+2025-03-06 19:27:01,319 - INFO - zre = [13383.8353287185]
+2025-03-06 19:27:01,319 - INFO - zim = [531.2534959187986]
+2025-03-06 19:27:02,566 - INFO - index = 26
+2025-03-06 19:27:02,566 - INFO - frequency = [31912.9375]
+2025-03-06 19:27:02,566 - INFO - zre = [13274.784476295297]
+2025-03-06 19:27:02,566 - INFO - zim = [530.6919129259037]
+2025-03-06 19:27:03,818 - INFO - index = 27
+2025-03-06 19:27:03,818 - INFO - frequency = [28394.392578125]
+2025-03-06 19:27:03,818 - INFO - zre = [13165.90657471064]
+2025-03-06 19:27:03,818 - INFO - zim = [530.2000719227477]
+2025-03-06 19:27:05,041 - INFO - index = 28
+2025-03-06 19:27:05,041 - INFO - frequency = [25263.783203125]
+2025-03-06 19:27:05,041 - INFO - zre = [13051.902965459647]
+2025-03-06 19:27:05,042 - INFO - zim = [534.2222457438023]
+2025-03-06 19:27:06,273 - INFO - index = 29
+2025-03-06 19:27:06,273 - INFO - frequency = [22478.337890625]
+2025-03-06 19:27:06,273 - INFO - zre = [12934.877844827775]
+2025-03-06 19:27:06,273 - INFO - zim = [544.3549048263005]
+2025-03-06 19:27:07,496 - INFO - index = 30
+2025-03-06 19:27:07,496 - INFO - frequency = [20000.0]
+2025-03-06 19:27:07,496 - INFO - zre = [12812.379270435535]
+2025-03-06 19:27:07,496 - INFO - zim = [555.0073941070984]
+2025-03-06 19:27:07,595 - INFO - measurement finished
+2025-03-06 19:27:07,601 - INFO - disconnected
+2025-03-06 19:27:07,624 - INFO - Calculated Intercept: 11489.75727985327
+2025-03-06 19:27:07,625 - INFO - Pumping 1.1700000000000002mL from SONICATOR takes 14.040000000000003 seconds
+2025-03-06 19:27:07,639 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:27:07,639 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: CLOCKWISE
+2025-03-06 19:27:07,639 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 0, 91])
+2025-03-06 19:27:21,681 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:27:21,681 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: CLOCKWISE
+2025-03-06 19:27:21,681 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 0, 90])
+2025-03-06 19:27:21,847 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:27:21,848 - INFO - Command sent: [0, 253, 3] for valve state: OFF, valve number: 3
+2025-03-06 19:27:21,848 - INFO - Command sent: [0, 253, 4] for valve state: OFF, valve number: 4
+2025-03-06 19:27:21,849 - INFO - Command sent: [0, 255, 5] for valve state: ON, valve number: 5
+2025-03-06 19:27:21,849 - INFO - Command sent: [0, 255, 6] for valve state: ON, valve number: 6
+2025-03-06 19:27:21,849 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:27:21,849 - INFO - Pumping 3mL from SONICATOR takes 36.0 seconds
+2025-03-06 19:27:21,859 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:27:21,859 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:27:21,859 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 1, 90])
+2025-03-06 19:27:57,847 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:27:57,847 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:27:57,847 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 1, 91])
+2025-03-06 19:27:57,973 - INFO - Successfully opened serial port COM7 at baud rate 9600.
+2025-03-06 19:27:59,074 - INFO - Successfully enabled the viscometer.
+2025-03-06 19:28:09,075 - INFO - Starting measurement with rpm=200 and stablization time=10.
+2025-03-06 19:28:10,085 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:12,105 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:14,136 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:16,165 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:18,171 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:20,188 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:22,193 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:24,221 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:26,244 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:28,250 - INFO - Measured viscosity 1.8852000000000002cp and temperature 310.925.
+2025-03-06 19:28:29,264 - INFO - Average viscosity 1.8852cp and temperature 310.925.
+2025-03-06 19:28:29,390 - INFO - Pumping 3.9000000000000004mL from SONICATOR takes 46.800000000000004 seconds
+2025-03-06 19:28:29,402 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:28:29,403 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: CLOCKWISE
+2025-03-06 19:28:29,403 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 0, 91])
+2025-03-06 19:29:16,213 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.CLOCKWISE: 0>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:29:16,214 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: CLOCKWISE
+2025-03-06 19:29:16,214 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 0, 90])
+2025-03-06 19:29:16,413 - INFO - Number of records: 674
+2025-03-06 19:29:16,428 - INFO - Measured temperature: 24.900000000000002
+2025-03-06 19:29:16,466 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:29:16,467 - INFO - Command sent: [0, 253, 1] for valve state: OFF, valve number: 1
+2025-03-06 19:29:16,468 - INFO - Command sent: [0, 253, 2] for valve state: OFF, valve number: 2
+2025-03-06 19:29:16,469 - INFO - Command sent: [0, 253, 5] for valve state: OFF, valve number: 5
+2025-03-06 19:29:16,470 - INFO - Command sent: [0, 253, 6] for valve state: OFF, valve number: 6
+2025-03-06 19:29:16,470 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:29:16,491 - INFO - Successfully opened serial port COM5 at baud rate 9600.
+2025-03-06 19:29:16,536 - INFO - Valve moving from position: 10
+2025-03-06 19:29:16,696 - INFO - Valve moved to position: 1
+2025-03-06 19:29:16,826 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:29:16,826 - INFO - Command sent: [0, 253, 5] for valve state: OFF, valve number: 5
+2025-03-06 19:29:16,827 - INFO - Command sent: [0, 253, 6] for valve state: OFF, valve number: 6
+2025-03-06 19:29:16,827 - INFO - Device successfully closed: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:29:16,827 - INFO - Pumping 5mL from SONICATOR takes 60.0 seconds
+2025-03-06 19:29:16,841 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.START_PUMP: 1>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:29:16,841 - INFO - Setting flow rate to 5000000.0 with State1: START_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:29:16,841 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 1, 1, 90])
+2025-03-06 19:30:16,849 - INFO - Generating command with arguments: (<Mode.SET_FLOW_RATE: 2>, 14, <State1.STOP_PUMP: 0>, <State2.COUNTER_CLOCKWISE: 1>, 5000000.0, '2025-03-06 19-23-25.log')
+2025-03-06 19:30:16,849 - INFO - Setting flow rate to 5000000.0 with State1: STOP_PUMP, State2: COUNTER_CLOCKWISE
+2025-03-06 19:30:16,850 - INFO - Generated command: array('B', [233, 14, 8, 87, 76, 0, 76, 75, 64, 0, 1, 91])
+2025-03-06 19:30:17,014 - INFO - Device successfully opened: b'\\\\?\\HID#VID_16C0&PID_05DF#8&38c1599b&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+2025-03-06 19:30:17,018 - INFO - Successfully closed all valves
+2025-03-06 19:30:17,018 - INFO - Making composition ACN|100|None|0 has completed!

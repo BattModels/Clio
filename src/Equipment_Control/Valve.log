@@ -1,0 +1,119 @@
+2024-09-24 15:10:12,864 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:11:09,392 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:11:26,206 - INFO - Successfully opened serial port COM3 at baud rate 9600.
+2024-09-24 15:12:04,154 - INFO - Successfully opened serial port COM69 at baud rate 9600.
+2024-09-24 15:12:07,854 - INFO - Successfully opened serial port COM69 at baud rate 9600.
+2024-09-24 15:13:50,201 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:14:20,625 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:14:22,993 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:17:15,792 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:17:16,820 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:52:53,740 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:52:57,635 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 15:52:59,356 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:03:30,047 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:04:41,685 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:04:42,724 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:16:07,139 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:40:49,039 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:53:30,473 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:39,457 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:42,983 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:44,103 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:45,606 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:46,427 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 16:54:48,759 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-24 17:55:42,265 - INFO - Successfully opened serial port COM5 at baud rate 9600.
+2024-09-24 17:55:42,312 - INFO - Valve moving from position: 6
+2024-09-24 17:55:42,536 - INFO - Valve moved to position: 4
+2024-09-24 17:55:43,506 - INFO - Successfully opened serial port COM5 at baud rate 9600.
+2024-09-24 17:55:43,552 - INFO - Valve moving from position: 4
+2024-09-24 17:55:43,936 - INFO - Valve moved to position: 10
+2024-09-24 17:55:58,202 - INFO - Successfully opened serial port COM5 at baud rate 9600.
+2024-09-24 17:55:58,249 - INFO - Valve moving from position: 10
+2024-09-24 17:55:58,552 - INFO - Valve moved to position: 7
+2024-09-24 17:55:59,179 - INFO - Successfully opened serial port COM5 at baud rate 9600.
+2024-09-24 17:55:59,225 - INFO - Valve moving from position: 7
+2024-09-24 17:55:59,529 - INFO - Valve moved to position: 4
+2024-09-25 10:44:56,321 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:49:10,569 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:49:14,113 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:49:50,387 - INFO - Successfully opened serial port COM6 at baud rate 4800.
+2024-09-25 10:49:50,450 - INFO - Valve moving from position: 7
+2024-09-25 10:49:50,851 - INFO - Valve moved to position: 3
+2024-09-25 10:49:54,138 - INFO - Successfully opened serial port COM6 at baud rate 4800.
+2024-09-25 10:49:54,201 - INFO - Valve moving from position: 3
+2024-09-25 10:49:54,601 - INFO - Valve moved to position: 7
+2024-09-25 10:56:23,573 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-25 10:56:23,620 - INFO - Valve moving from position: 8
+2024-09-25 10:56:23,781 - INFO - Valve moved to position: 7
+2024-09-25 10:56:24,595 - INFO - Successfully opened serial port COM4 at baud rate 9600.
+2024-09-25 10:56:24,642 - INFO - Valve moving from position: 7
+2024-09-25 10:56:25,026 - INFO - Valve moved to position: 1
+2024-09-25 10:56:55,548 - INFO - Successfully opened serial port COM6 at baud rate 4800.
+2024-09-25 10:56:55,595 - INFO - Valve moving from position: 7
+2024-09-25 10:56:55,755 - INFO - Valve moved to position: 8
+2024-09-25 10:56:56,778 - INFO - Successfully opened serial port COM6 at baud rate 4800.
+2024-09-25 10:56:56,840 - INFO - Valve moving from position: 8
+2024-09-25 10:56:57,159 - INFO - Valve moved to position: 5
+2024-09-25 10:57:37,338 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:57:37,385 - INFO - Valve moved to position: 5
+2024-09-25 10:57:38,590 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:57:38,637 - INFO - Valve moving from position: 5
+2024-09-25 10:57:38,797 - INFO - Valve moved to position: 6
+2024-09-25 10:57:39,645 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:57:39,691 - INFO - Valve moving from position: 6
+2024-09-25 10:57:39,931 - INFO - Valve moved to position: 4
+2024-09-25 10:57:43,116 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-09-25 10:57:43,163 - INFO - Valve moving from position: 4
+2024-09-25 10:57:43,403 - INFO - Valve moved to position: 6
+2024-10-11 11:32:41,144 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:32:41,190 - INFO - Valve moving from position: 8
+2024-10-11 11:32:41,350 - INFO - Valve moved to position: 9
+2024-10-11 11:32:44,205 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:32:44,252 - INFO - Valve moving from position: 9
+2024-10-11 11:32:44,492 - INFO - Valve moved to position: 1
+2024-10-11 11:32:45,346 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:32:45,393 - INFO - Valve moving from position: 1
+2024-10-11 11:32:45,634 - INFO - Valve moved to position: 9
+2024-10-11 11:32:46,420 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:32:46,468 - INFO - Valve moving from position: 9
+2024-10-11 11:32:46,692 - INFO - Valve moved to position: 1
+2024-10-11 11:33:02,035 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:02,081 - INFO - Valve moved to position: 1
+2024-10-11 11:33:03,884 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:03,931 - INFO - Valve moving from position: 1
+2024-10-11 11:33:04,315 - INFO - Valve moved to position: 7
+2024-10-11 11:33:08,673 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:08,718 - INFO - Valve moving from position: 7
+2024-10-11 11:33:08,879 - INFO - Valve moved to position: 6
+2024-10-11 11:33:11,038 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:11,084 - INFO - Valve moving from position: 6
+2024-10-11 11:33:11,244 - INFO - Valve moved to position: 7
+2024-10-11 11:33:12,509 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:12,555 - INFO - Valve moving from position: 7
+2024-10-11 11:33:12,859 - INFO - Valve moved to position: 10
+2024-10-11 11:33:25,093 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:33:25,140 - INFO - Valve moving from position: 10
+2024-10-11 11:33:25,444 - INFO - Valve moved to position: 7
+2024-10-11 11:35:50,800 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:35:50,846 - INFO - Valve moving from position: 4
+2024-10-11 11:35:51,007 - INFO - Valve moved to position: 3
+2024-10-11 11:35:57,822 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:35:57,868 - INFO - Valve moved to position: 3
+2024-10-11 11:36:01,621 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:01,667 - INFO - Valve moving from position: 3
+2024-10-11 11:36:02,052 - INFO - Valve moved to position: 7
+2024-10-11 11:36:07,943 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:07,989 - INFO - Valve moving from position: 7
+2024-10-11 11:36:08,149 - INFO - Valve moved to position: 6
+2024-10-11 11:36:11,880 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:11,926 - INFO - Valve moving from position: 6
+2024-10-11 11:36:12,310 - INFO - Valve moved to position: 2
+2024-10-11 11:36:14,406 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:14,454 - INFO - Valve moved to position: 2
+2024-10-11 11:36:16,603 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:16,650 - INFO - Valve moved to position: 2
+2024-10-11 11:36:18,068 - INFO - Successfully opened serial port COM6 at baud rate 9600.
+2024-10-11 11:36:18,115 - INFO - Valve moving from position: 2
+2024-10-11 11:36:18,499 - INFO - Valve moved to position: 6
