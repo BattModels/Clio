@@ -1,0 +1,10 @@
+dash==2.18.1
+dash_bootstrap_components==1.6.0
+hidapi==0.14.0.post2
+matplotlib==3.7.5
+numpy==1.24.4
+pandas==1.2.1
+plotly==5.24.1
+PuLP==2.9.0
+pyserial==3.4
+pythonnet==3.0.4
