@@ -17,6 +17,7 @@ from dash.exceptions import PreventUpdate
 import multiprocessing
 from multiprocessing import Process
 import logging
+from dash.dash_table.Format import Format, Scheme
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = current_dir
@@ -680,9 +681,22 @@ if __name__ == '__main__':
         df = df.rename(columns=dict(zip(PROPERTY['Property'], [f'{p} ({u})' for p, u in zip(PROPERTY['Property'], PROPERTY['Units'])])))
         df.to_csv(buffer, index=False)
         csv_string = buffer.getvalue()
+        columns = []
+        for current in df.columns:
+            if pd.api.types.is_numeric_dtype(df[current]):
+                # numeric → format with 2 decimals (you can switch to 3 sig figs if needed)
+                columns.append({
+                    "name": current,
+                    "id": current,
+                    "type": "numeric",
+                    "format": Format(precision=2, scheme=Scheme.fixed)
+                })
+            else:
+                # non-numeric → no formatting
+                columns.append({"name": current, "id": current})
         return [html.Div(children=[dash_table.DataTable(
             id='table',
-            columns=[{"name": i, "id": i} for i in df.columns],
+            columns=columns,
             data=df.to_dict('records'),
             sort_action="native",  # Enable native sorting
             filter_action="native",  # Enable native filtering
