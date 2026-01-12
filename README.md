@@ -86,7 +86,7 @@ electrolyte and the final one represents the molality of each type of salt in th
 For example, the electrolyte solution with 60% DMC and 40% EMC in the solvent and LiPF6 and LiFSI with 1 mol/kg and 1.5 mol/kg, respectively, should have the CompositionID as DMC_EMC|60_40|LiPF6_LiFSI|1_1.5. 
 
 ## Video Demo
-[![ElyteOS Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=OK6PHi21mSU)
+[![ElyteOS Demo](https://img.youtube.com/vi/OK6PHi21mSU/0.jpg)](https://www.youtube.com/watch?v=OK6PHi21mSU)
 
 ## License
 The code is licensed under MIT.
