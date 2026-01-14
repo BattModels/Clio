@@ -37,6 +37,9 @@ The following table contains all the lab equipments to be used:
 | thermometer | Elitech LogEt5TE | 1 | temperature measurement | HID | USB type A |
 | motor | Kamoer NKP | 1 | mixing the solution | N/A (connected to relay) | N/A (connected to relay) |
 
+### Hardware Setup
+The following images are an overview of the lab equipments setup:
+
 ### Software Prerequisites
 - Operating System: Windows 10
 - Python Version: Python 3.8 or higher
