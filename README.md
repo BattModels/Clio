@@ -39,6 +39,8 @@ The following table contains all the lab equipments to be used:
 
 ### Hardware Setup
 The following images are an overview of the lab equipments setup:
+![Clio Setup](Images/Clio.png)
+![Digital twin](Images/Digital_Twin.jpeg)
 
 ### Software Prerequisites
 - Operating System: Windows 10
